@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teresa & Alberto - Nuestra Boda</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Raleway:wght@300;400;500&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<body>
+    <div class="contenedor-sobre">
+        <div class="sobre-wrapper">
+            <img class="izquierdo" src="recursos/1x/sobre_izquierdo.png" alt="">
+            <img class="derecho" src="recursos/1x/sobre_derecho.png" alt="">
+            <div id="invitacion" class="invitacion foto3">
+                <div class="contenido" id="contenido">
+                    <h1 class="invitacion-titulo">♥ Nuestro amor hecho una historia real ♥</h1>
+                    <p class="invitacion-texto">
+                        Hay momentos en la vida que se vuelven inolvidables
+                        cuando se comparten con personas especiales.
+                    </p>
+                    <button id="btn-continuar" class="btn-continuar" onclick="mostrarMenuPrincipal()">Ver los detalles</button>
+                </div>
+            </div>
+        </div>
+        <button class="sello" type="button" aria-label="Abrir invitación">
+            <img src="recursos/1x/sello.png" alt="">
+        </button>
+    </div>
+
+    <audio id="audio-invitacion" preload="auto">
+        <source src="recursos/cancion.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="js/js.js"></script>
+</body>
+
+</html>
